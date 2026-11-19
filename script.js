@@ -8,20 +8,14 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
-        title: "0222心動",
-        singer:"Bomb比爾",
-        genre: ["抒情Lyric","流行Pop", "可愛Cute"],
-        crown: "",
-        note: ""
-    },
-    {
+    
+    /*{
         title: " 1022-比爾的歌",
         singer:"Bomb比爾",
         genre: ["抒情Lyric","流行Pop", "可愛Cute"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "123我爱妳",
         singer:"新樂塵符",
@@ -29,13 +23,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "22秒",
         singer:"Aioz",
         genre: ["流行Pop", "抒情Lyric"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "24/7, 365",
         singer:"Elijah Woods",
@@ -57,13 +51,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "7%",
         singer:"XMASwu",
         genre: ["流行Pop", "可愛Cute"],
         crown: "",
         note: "唱女聲"
-    },
+    },*/
     {
         title: "Dadi",
         singer:"KIRE",
@@ -99,13 +93,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "肯定",
         singer:"RE-D/是二哈ya/masta",
         genre: ["流行Pop", "可愛Cute"],
         crown: "",
         note: "唱女聲"
-    },
+    },*/
     {
         title: "靠近",
         singer:"一口甜 & 二辰",
@@ -169,13 +163,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "慢慢",
         singer: "Uu",
         genre: ["抒情Lyric", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "玻璃",
         singer:"Gareth.T",
@@ -183,13 +177,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "情歌",
         singer:"梁靜茹",
         genre: ["抒情Lyric", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "東西",
         singer:"林俊呈",
@@ -241,7 +235,7 @@ const songs = [
     },
     {
         title: "嘉賓",
-        singer:"薛之謙",
+        singer:"張遠",
         genre: ["抒情Lyric", "流行Pop","EMO"],
         crown: "",
         note: ""
@@ -253,13 +247,13 @@ const songs = [
         crown: "",
         note: "唱女聲"
     },
-    {
+    /*{
         title: "忍住",
         singer: "司馬缸砸光",
         genre: ["抒情Lyric", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "如願",
         singer:"王菲",
@@ -330,13 +324,13 @@ const songs = [
         crown: "",
         note: "唱女聲、偏短"
     },
-    {
-        title: "小酒窩",
+    /*{
+       title: "小酒窩",
         singer: "林俊傑&蔡卓妍",
         genre: ["流行Pop", "可愛Cute"],
         crown: "",
         note: "唱女聲"
-    },
+    },*/
     /*{
         title: "氧化氫",
         singer: "李尖尖",
@@ -400,6 +394,13 @@ const songs = [
         crown: "",
         note: ""
     },
+    {
+        title: "年齡差",
+        singer: "番茄貝果",
+        genre: ["流行Pop","可愛Cute"],
+        crown: "",
+        note: ""
+    },
     /*{
         title: "浪漫愛",
         singer: "江語晨",
@@ -429,6 +430,13 @@ const songs = [
         note: ""
     },
     {
+        title: "星光舞會",
+        singer: "趙希予",
+        genre: ["可愛Cute", "流行Pop","推薦"],
+        crown: "",
+        note: ""
+    },
+    {
         title: "專屬天使",
         singer: "TANK",
         genre: ["抒情Lyric", "流行Pop"],
@@ -442,13 +450,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "愛丫愛丫",
         singer: "BY2",
         genre: ["抒情Lyric", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "氣象站台",
         singer: "Uu",
@@ -456,13 +464,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "今夜有雨",
         singer: "h3R3",
         genre: ["抒情Lyric", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "戀愛畫板",
         singer: "錦零",
@@ -667,7 +675,7 @@ const songs = [
         note: ""
     },
     {
-        title: " 風月吻眉梢",
+        title: "風月吻眉梢",
         singer: "禮越",
         genre: ["流行Pop","古風"],
         crown: "",
@@ -680,13 +688,13 @@ const songs = [
         crown: "",
         note: ""
     },*/
-    {
+    /*{
         title: "只對你偏愛",
         singer: "承桓",
         genre: ["可愛Cute", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "愛的就是你",
         singer: "王力宏",
@@ -694,13 +702,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "目及皆是你",
         singer: "小藍背心",
         genre: ["抒情Lyric", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "熱戀冰淇淋",
         singer: "yihuik苡慧",
@@ -742,13 +750,14 @@ const songs = [
         genre: ["可愛Cute", "流行Pop","推薦"],
         crown: "",
         note: ""
-    },{
+    },
+    /*{
         title: "像晴天像雨天",
         singer: "汪苏泷",
         genre: ["抒情Lyric", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "少女做妖日記",
         singer: "糯米Nomi",
@@ -770,13 +779,13 @@ const songs = [
         crown: "",
         note: ""
     },
-    {
+    /*{
         title: "被神明寫的歌",
         singer: "K.D",
         genre: ["抒情Lyric", "流行Pop"],
         crown: "",
         note: ""
-    },
+    },*/
     {
         title: "我把我留在那了",
         singer: "陳華",
